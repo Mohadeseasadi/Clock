@@ -14,6 +14,12 @@ function showtime(){
         hours = 0;
     }
 
+    // set PM time
+    if(hours > 12){
+        hours = hours-12
+        secounds = "PM"
+    }
+
     
 
 
