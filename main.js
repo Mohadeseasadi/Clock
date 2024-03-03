@@ -9,6 +9,11 @@ function showtime(){
     var secounds = date.getSeconds();
     var session = "AM"
 
+    // set night time
+    if(hours == 12){
+        hours = 0;
+    }
+
     
 
 
