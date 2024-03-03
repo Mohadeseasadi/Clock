@@ -20,7 +20,10 @@ function showtime(){
         secounds = "PM"
     }
 
-    
+    // set time when less than 10
+    hours = hours < 10 ? "0" + hours : hours ;
+    minuts = minuts < 10 ? "0" + minuts : minuts ;
+    secounds = secounds <10 ? "0" + secounds : secounds ;
 
 
 }
