@@ -1,1 +1,8 @@
-var time = document.getElementById("my-clock")
+function showtime(){
+    // get element htm
+    var myClock = document.getElementById("my-clock");
+
+    
+
+
+}
