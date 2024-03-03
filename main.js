@@ -17,7 +17,7 @@ function showtime(){
     // set PM time
     if(hours > 12){
         hours = hours-12
-        secounds = "PM"
+        session = "PM"
     }
 
     // set time when less than 10
@@ -26,7 +26,7 @@ function showtime(){
     secounds = secounds <10 ? "0" + secounds : secounds ;
 
     // set time for showing
-    var time = hours + ":" + minuts + ":" + secounds ;
+    var time = hours + ":" + minuts + ":" + secounds + " "+session ;
     myClock.innerText = time;
 
     // settimeout
