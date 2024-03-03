@@ -29,6 +29,8 @@ function showtime(){
     var time = hours + ":" + minuts + ":" + secounds ;
     myClock.innerText = time;
 
-    
+    // settimeout
+    setTimeout(showtime, 1000);
 }
 
+showtime()
