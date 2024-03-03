@@ -25,5 +25,10 @@ function showtime(){
     minuts = minuts < 10 ? "0" + minuts : minuts ;
     secounds = secounds <10 ? "0" + secounds : secounds ;
 
+    // set time for showing
+    var time = hours + ":" + minuts + ":" + secounds ;
+    myClock.innerText = time;
 
+    
 }
+
